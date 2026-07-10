@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanchari Sil</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    
+    font-family:'Inter',sans-serif;
+    
+    color:#333;
+    background-color:#f5e6d3;
+    line-height:1.7;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+}
+
+header{
+    text-align:center;
+    padding:70px 20px 50px;
+}
+
+header h1{
+    font-size:3rem;
+    color:#212;
+    font-family: Georgia, serif; 
+}
+
+header h3{
+    font-weight:200;
+    color:#555;
+    margin-top:8px;
+}
+
+.contact{
+    margin-top:20px;
+    color:#666;
+    font-size:0.95rem;
+}
+
+.contact a{
+    color:#0056b3;
+    text-decoration:none;
+}
+
+.contact a:hover{
+    text-decoration:underline;
+}
+
+nav{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#444;
+    margin:0 18px;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#0056b3;
+}
+
+.highlight {
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    margin-bottom:30px;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
+h2{
+    color:#0b5394;
+    margin-bottom:20px;
+    border-left:4px solid #0b5394;
+    padding-left:10px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:12px;
+}
+
+.education-item{
+    margin-bottom:20px;
+}
+
+.degree{
+    font-weight:600;
+}
+
+.institute{
+    color:#666;
+}
+
+footer{
+    text-align:center;
+    color:#777;
+    padding:40px;
+    font-size:.9rem;
+}
+
+.footer-columns {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+           
+            
+        }
+
+.column {
+	display: flex;
+    	flex-direction: column;
+    	justify-content: center; /* centers items vertically */
+    	align-items: center;     /* centers text horizontally */
+    	gap: 5px;
+    	text-align: center;
+    	
+    	
+        
+        }
+.column:not(:last-child) {
+            border-right: 10px solid black;
+        }
+        
+.scroll-section {
+
+	
+        width: 100%;
+        height: 200px;          /* Height of the scroll area */
+        
+        padding: 0px;
+        
+        overflow-y: auto;       /* Enables vertical scrolling */
+    }
+
+    .content {
+        height: 800px;          /* Just for demonstration */
+    }
+    
+    .top-photo {
+  position: absolute;
+  top: 70px;
+  left: 120px;
+  width: 180px;
+  border-radius: 50%;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="sanchari.jpg" alt="" class="top-photo">
+<h1>Sanchari Sil</h1>
+
+<h3>Research Scholar @ Chennai Mathematical Institute, India</h3>
+
+
+<div style="display:flex;justify-content:center; align-items:center; gap:20px; padding:20px 0;">
+
+  <div style="display:flex; flex-direction:column; gap:10px; padding-right:20px; border-right:2px solid #555;">
+   <a href="mailto:your.email@university.edu">
+sanchari@cmi.ac.in
+</a>
+   <a href="mailto:your.email@university.edu">
+silsanchari20@gmail.com
+</a>
+
+  </div>
+
+
+    <div style="display:flex; flex-direction:column; gap:10px; padding-left:10px; padding-right:20px; border-right:2px solid #555;">
+        <a href="#">Google Scholar</a>
+        
+        <a href="https://dblp.org/pid/356/3908.html" >dblp</a>
+    </div>
+    
+    <div style="display:flex; flex-direction:column; gap:10px; padding-left:10px;">
+        <a href="cv.pdf" download>
+  Download My CV
+</a>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+<!--<div class="contact">
+
+<a href="mailto:your.email@university.edu">
+sanchari@cmi.ac.in
+</a>-->
+<!--
+&nbsp; | &nbsp;-->
+
+<!--<a href="#">Google Scholar</a>-->
+<!--
+<a href="mailto:your.email@university.edu">
+silsanchari20@gmail.com
+</a>
+
+&nbsp; | &nbsp;
+
+<a href="#">GitHub</a>
+
+&nbsp; | &nbsp;-->
+
+<!--
+
+</div>
+-->
+
+
+
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#education">Education</a>
+
+<a href="#research">Research Interests</a>
+
+<a href="#publications">Publications</a>
+
+<a href="#activities">Activities</a>
+
+</nav>
+
+<div class="container">
+
+<section id="about" class="card">
+
+<h2>About</h2>
+
+<p>
+I am a PhD student at
+<strong>Chennai Mathematical Institute</strong> since December, 2020 under the supervision of <a href="https://www.cmi.ac.in/~sri/">B Srivathsan</a>, CMI and <a href="https://www.cse.iitb.ac.in/~krishnas/index.html"> S Krishna</a>, IIT Bombay. My current research focuses on various Consistency Testing Problems under Shared Memory Models.
+</p>
+
+</section>
+
+<section id="education" class="card">
+
+<h2>Education</h2>
+
+<div class="education-item">
+
+<div class="degree">
+PhD in Theoritical Computer Science (Dec, 2020–Present)
+</div>
+
+<div class="institute">
+Chennai Mathematical Institute, India
+</div>
+
+</div>
+
+<div class="education-item">
+
+<div class="degree">
+M.Tech in Computer Science (2018-2020)
+</div>
+
+<div class="institute">
+Indian Statistical Institute, Kolkata, India<br>
+
+Mtech Project: Enhancing Speed of Gaussian Process<br>
+
+Supervisor: <a href="https://www.isical.ac.in/~sourav/">Sourav Chakraborty</a>    
+</div>
+
+</div>
+
+<div class="education-item">
+
+<div class="degree">
+Integrated MSc in Statistics (2013-2018)
+</div>
+
+<div class="institute">
+University of Kalyani, India
+</div>
+
+</div>
+
+</section>
+
+<section id="research" class="card">
+
+<h2>Research Interests</h2>
+
+<ul>
+
+<li>Formal Verification</li>
+
+<li>Automata and Logic</li> <li>Games on Graphs</li>
+</ul>
+
+</section>
+
+<section id="publications" class="card">
+
+<h2>Publications</h2>
+
+<ol>
+
+<li>
+
+<strong>Verifying Sequential Consistency under Bounded Preemptions</strong> <br>
+
+R. Govind, S. Krishna, Sanchari Sil, B. Srivathsan<br>
+
+In Proceedings of NETYS 2026<br>
+
+<a href="https://arxiv.org/abs/2605.10625">pre-print</a>
+&nbsp; | &nbsp; 
+<a href="?"> Conference version</a>
+</li>
+
+<li>
+
+<strong>Complexity of Consistency Testing for the Release-Acquire Semantics</strong><br>
+
+R. Govind, S. Krishna, Sanchari Sil, B. Srivathsan<br>
+
+FM (2) 2026: 234-251<br>
+
+<a href="https://arxiv.org/abs/2604.09589">pre-print</a> 
+&nbsp; | &nbsp; 
+<a href="https://link.springer.com/chapter/10.1007/978-3-032-26220-2_12"> Conference version</a>
+
+</li>
+
+<br>
+
+<li>
+
+<strong>TSO Games - On the decidability of safety games under the total store order semantics</strong><br>
+
+Stephan Spengler, Sanchari Sil<br>
+
+GandALF 2023: 82-98<br>
+<a href="https://arxiv.org/abs/2310.00990">pre-print</a>
+&nbsp; | &nbsp; <a href="https://www.semanticscholar.org/paper/TSO-Games-On-the-decidability-of-safety-games-under-Spengler-Sil/8368c84e60ec5e3cd5ac7ebf9ba26eda907e9f81">Conference Version</a>
+&nbsp; | &nbsp; <a href="https://lmcs.episciences.org/16574"> LMCS Version</a>
+</li>
+
+</ol>
+
+</section>
+
+<h2>Activities</h2>
+
+<div class="card">
+<section id="presentation" class="scroll-section" style="justify-content: flex-start;
+    align-items: flex-start;">
+         <h2>Presentations</h2>
+            
+            <li>The International Conference on Networked Systems 2026: Verifying Sequential Consistency under Bounded Preemptions</strong>, joint work with R. Govind, S. Krishna, and B. Srivathsan <span class="highlight">best paper</span><br>
+            
+            
+            </li>
+            <li>Formal Methods 2026</li>
+            <li>WAGS@FSTTCS 2025</li>
+            <li>Poster presentation at Milestones and Motifs in Automata and Concurrency co-located with ATVA, 2025 IIIT Bangalore, India </li>
+            <li>TCS Research Expo 2024, Pune </li>
+         
+        </section>
+        </div>
+        
+ 
+ <div class="card">
+ <section id="activities" class="scroll-section" style="justify-content: flex-start;
+    align-items: flex-start;">
+ 		
+            <h2>Others</h2>
+            
+            <li>Participated in Indian School on Logic and its Application, ISLA 2024, IIT Goa </li>
+            <li>Volunteer in SAT 2024 </li>
+            <li>Participated in FM Update Meeting 2022, 2023</li>
+            <li>Volunteered in Workshop on Analysis of Boolean functions, 2020</li>
+   </section> 
+</div>
+        
+        
+   
+   
+   <div class="card">
+   
+   <section>    
+  
+ 		
+            <h2>Teaching Assistant</h2> 
+            
+            <p>Discrete Maths &nbsp;| &nbsp; Algorithms<p>
+            
+           
+       
+        
+     </section>   
+     </div>
+
+
+</div>
+
+
+
+</body>
+</html>
